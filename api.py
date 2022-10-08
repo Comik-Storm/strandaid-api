@@ -4,7 +4,7 @@ from flask import Flask, jsonify, render_template, Response, request
 import json
 
 #Setup Google Firebase
-cred = credentials.Certificate('/home/ComikStorm/mysite/key.json')
+cred = credentials.Certificate('key.json')
 firebase = initialize_app(cred)
 
 #Setup Firestore DB
